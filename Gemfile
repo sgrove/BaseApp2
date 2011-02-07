@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
+gem 'rails', '3.0.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
+# gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Use unicorn as the web server
 gem 'unicorn'
@@ -13,18 +13,18 @@ gem 'unicorn'
 # Deploy with Capistrano
 gem 'capistrano'
 gem 'capistrano-ext'
-gem 'devise', "~> 1.1.0"
+gem 'devise', "~>= 1.1.0"
 gem "configatron"
 gem "post_commit"
-gem "will_paginate", "~> 3.0.pre2"
+gem "will_paginate", ">= 3.0.pre2"
 gem "configatron"
 gem "declarative_authorization"
 gem "aasm"
 
 group :development do
   # To use debugger
-  gem 'ruby-debug'
-  gem 'sqlite3-ruby', :require => "sqlite3"
+  # gem 'ruby-debug'
+  # gem 'sqlite3-ruby', :require => "sqlite3"
 end
 
 # Bundle the extra gems:
